@@ -1,0 +1,26 @@
+Running 1 tests in a single process (parallelization threshold is 50)
+Run options: --seed 64473
+
+# Running:
+
+E
+
+Error:
+ArticleTest#test_no_se_debería_guardar_con_nombre_invalido:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+
+rails test test/models/article_test.rb:4
+
+
+
+Finished in 0.015052s, 66.4372 runs/s, 0.0000 assertions/s.
+1 runs, 0 assertions, 0 failures, 1 errors, 0 skips

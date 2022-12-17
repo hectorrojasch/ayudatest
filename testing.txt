@@ -1,0 +1,166 @@
+Running 8 tests in a single process (parallelization threshold is 50)
+Run options: --seed 4578
+
+# Running:
+
+E
+
+Error:
+ArticlesControllerTest#test_should_destroy_article:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:331:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activejob-7.0.4/lib/active_job/test_helper.rb:48:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/test_help.rb:48:in `before_setup'
+
+rails test test/controllers/articles_controller_test.rb:41
+
+E
+
+Error:
+ArticlesControllerTest#test_should_update_article:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:331:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activejob-7.0.4/lib/active_job/test_helper.rb:48:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/test_help.rb:48:in `before_setup'
+
+rails test test/controllers/articles_controller_test.rb:36
+
+E
+
+Error:
+ArticlesControllerTest#test_should_show_article:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:331:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activejob-7.0.4/lib/active_job/test_helper.rb:48:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/test_help.rb:48:in `before_setup'
+
+rails test test/controllers/articles_controller_test.rb:26
+
+E
+
+Error:
+ArticlesControllerTest#test_should_get_edit:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:331:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activejob-7.0.4/lib/active_job/test_helper.rb:48:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/test_help.rb:48:in `before_setup'
+
+rails test test/controllers/articles_controller_test.rb:31
+
+E
+
+Error:
+ArticlesControllerTest#test_should_get_index:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:331:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activejob-7.0.4/lib/active_job/test_helper.rb:48:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/test_help.rb:48:in `before_setup'
+
+rails test test/controllers/articles_controller_test.rb:8
+
+E
+
+Error:
+ArticlesControllerTest#test_should_create_article:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:331:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activejob-7.0.4/lib/active_job/test_helper.rb:48:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/test_help.rb:48:in `before_setup'
+
+rails test test/controllers/articles_controller_test.rb:18
+
+E
+
+Error:
+ArticlesControllerTest#test_should_get_new:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:331:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activejob-7.0.4/lib/active_job/test_helper.rb:48:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/test_help.rb:48:in `before_setup'
+
+rails test test/controllers/articles_controller_test.rb:13
+
+E
+
+Error:
+ArticleTest#test_no_se_debería_guardar_con_nombre_invalido:
+RuntimeError: Foreign key violations found in your fixture data. Ensure you aren't referring to labels that don't exist on associations.
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:633:in `block in insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `each'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:621:in `insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:607:in `read_and_insert'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/fixtures.rb:567:in `create_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:275:in `load_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:125:in `setup_fixtures'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activerecord-7.0.4/lib/active_record/test_fixtures.rb:10:in `before_setup'
+    /home/hector/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+
+rails test test/models/article_test.rb:4
+
+
+
+Finished in 0.087774s, 91.1434 runs/s, 0.0000 assertions/s.
+8 runs, 0 assertions, 0 failures, 8 errors, 0 skips

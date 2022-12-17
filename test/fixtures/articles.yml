@@ -1,11 +1,20 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+article_invalido_uno:
+  name: 'Re'
+  description: 'MyText'
+  brand: 'Soprole'
 
-one:
-  name: MyString
-  description: MyText
-  brand: one
+article_invalido_dos:
+  name: <% 1*10 %>
+  description: 'MyText'
+  brand: 'Soprole'
 
-two:
-  name: MyString
-  description: MyText
-  brand: two
+article_invalido_tres:
+  name: nil
+  description: 'MyText'
+  brand: 'Soprole'
+
+article_invalido_cuatro:
+  name: ""
+  description: 'MyText'
+  brand: 'Soprole'
+
